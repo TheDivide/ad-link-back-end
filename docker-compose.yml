@@ -1,0 +1,27 @@
+version: "3.0"
+
+services:
+    yomu:
+      build:
+        context: .
+      image: rufusmbugua/laravel
+      container_name: yomu
+      ports:
+        - 6080:80
+      links:
+        - db
+      depends_on:
+        - db
+
+      volumes:
+        - ./:/var/www/html
+
+
+    db:
+      image: mysql
+      container_name: db_y
+      command: --default-authentication-plugin=mysql_native_password
+      restart: always
+      environment:
+        MYSQL_ROOT_PASSWORD: root
+        MYSQL_DATABASE: yomu
