@@ -1,4 +1,4 @@
-# Yomu API
+# AD LINK API
 
 Laravel 5.7 API for AD-LINK, an advertising agency.
 
