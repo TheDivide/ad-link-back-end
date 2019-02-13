@@ -1,6 +1,6 @@
 # Yomu API
 
-Laravel 5.7 API for personal library system Yomu.
+Laravel 5.7 API for AD-LINK, an advertising agency.
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
