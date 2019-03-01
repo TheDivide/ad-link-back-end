@@ -4,7 +4,7 @@ services:
     yomu:
       build:
         context: .
-      image: rufusmbugua/laravel
+      image: rufusmbugua/laravel-5
       container_name: yomu
       ports:
         - 6080:80
